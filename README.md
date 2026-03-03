@@ -1,7 +1,9 @@
 # Bash-locker
 
 ## What is it?
-This script will add basic and simple authorization feature using bash for the shell. (It works and functions best on Termux)
+This script will add basic and simple authorization feature using bash for the shell. (It works and functions best on Termux).
+
+<sub> ⚠️THIS IS NOT A REPLACEMENT FOR SYSTEM-LEVEL SECURITY. IT IS A SIMPLE SHELL-LEVEL PROTECTION LAYER⚠️ </sub>
 
 ## Features 
 Currently, this script only has 2 features
