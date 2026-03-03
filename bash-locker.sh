@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Simple pass lock (works best for Termux)
+#Bash-locker (works best for Termux)
 
 trap '' SIGINT SIGQUIT SIGTSTP
 
