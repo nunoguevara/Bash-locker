@@ -18,11 +18,13 @@ To install it, you need to have git installed first with `pkg install git`. Afte
   
 2. Customize and configure the script first within `Bash-locker` directory
 
-3. Check if the script runs properly after configuration by `exec [yourdirectory]`
+3. Enable the permission to execute the script with `chmod +x [yourdirectory]`
 
-4. If it works, put `exec [yourdirectory]` into the `~/.bash_profile` using text editor, and make sure it's placed on the 1st line
+4. Check if the script runs properly after configuration by `exec [yourdirectory]`
 
-5. Run `source ~/.bash_profile` on the terminal
+5. If it works, put `exec [yourdirectory]` into the `~/.bash_profile` using text editor, and make sure it's placed on the 1st line
+
+6. Run `source ~/.bash_profile` on the terminal
 
 Now you already installed Bash-locker and it will be activated to ask your authorization whenever you open Termux.
 
