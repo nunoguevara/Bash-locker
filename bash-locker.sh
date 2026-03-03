@@ -12,7 +12,7 @@ attempt=0
 
 while true; do
   #You can edit maximum attempts below
-	if [ "$attempt" -gt 5 ]; then
+	if [ "$attempt" -ge 5 ]; then
 		kill -9 $$
 	else
 		echo "Attempts: $attempt"
@@ -20,7 +20,6 @@ while true; do
 		read -s input
 		if [ "$input" == "$PASSWORD" ]; then
 			echo "Access granted!"
-			fastfetch
 			exec bash
 		else
 			echo "Access denied, try again."
